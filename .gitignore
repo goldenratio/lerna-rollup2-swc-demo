@@ -1,0 +1,9 @@
+.idea
+.firebase
+node_modules
+lib
+output
+
+*.iml
+*.log
+*.cache

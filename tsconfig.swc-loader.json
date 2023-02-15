@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "paths": {
+      "@lerna-demo/*": ["./packages/*/src"]
+    }
+  },
+  "exclude": [
+    "packages/*/sandbox-*/*",
+    "packages/*/sandbox/*",
+    "packages/*/__tests__/*",
+    "packages/*/lib/*",
+    "output/*",
+    "preview/*"
+  ]
+}
