@@ -38,7 +38,7 @@ async function main()
     }),
     commonjs(),
     swc({
-      tsconfig: 'tsconfig.swc-loader.json',
+      tsconfig: 'tsconfig.swc.json',
       sourceMaps: true
     }),
     replace({
