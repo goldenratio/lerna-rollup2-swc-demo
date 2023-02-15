@@ -4,8 +4,6 @@ import minimist from 'minimist';
 import resolve from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
 import replace from '@rollup/plugin-replace';
-// import typescript from 'rollup-plugin-typescript2';
-// import transpile from '@rollup/plugin-buble';
 import { swc } from 'rollup-plugin-swc3';
 
 import batchPackages from '@lerna/batch-packages';
